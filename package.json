@@ -1,16 +1,25 @@
 {
   "name": "tatiana",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^16.5.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
+    "start": "node server.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsosnicki647/tatiana.git"
+  },
+  "author": "Jesse Sosnicki",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "bugs": {
+    "url": "https://github.com/jsosnicki647/tatiana/issues"
+  },
+  "homepage": "https://github.com/jsosnicki647/tatiana#readme"
 }
